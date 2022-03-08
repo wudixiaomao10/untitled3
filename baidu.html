@@ -1,0 +1,142 @@
+<!DOCTYPE HTMl>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>百度</title>
+    <style type="text/css">
+        /*头部*/
+        .top{
+            width:100%;
+            height:64px;}
+        .top>.title{
+            height:60px;
+            float:left;}
+        .top>.title>span{
+            line-height:60px;
+            float:left;}
+
+
+        .top1{
+            width:100%;
+            height:10px;
+            top:1px}
+        .top1>.title1{
+            height:10px;
+            float:right;
+            top: 10px;}
+        .top1>.title1>span{
+            line-height:10px;
+            float:right;
+            top: 10px;}
+
+        .top>.title>span>a{
+            margin-left:10px;
+            font-size:16px;
+            font-family:"宋体";
+            text-decoration:underline;
+            color:#333}
+        .top>.title>span>.bold{
+            font-weight:bold;}
+        .list{
+            border:0;
+            height:25px;
+            width:60px;
+            text-decoration:underline;
+            background:#36F;
+            color:#fff;
+        }
+        /*主体*/
+        .pic{
+            text-align:center;
+            margin-bottom:30px;}
+        .logo{
+            height:130px;
+            width:270px;}
+        .search{
+            text-align:center;}
+        .input{
+            width:540px;
+            height:33px;}
+        .btn{
+            border:0;
+            width:100px;
+            height:39px;
+            background:#36F;
+            font-size:15px;
+            color:#fff;}
+
+        /*尾部*/
+        .foot{width:100%;
+            position:absolute;
+            bottom:100px;}
+        .foot>.link{
+            text-align:center;
+            margin-bottom:10px;}
+        .foot>.link>a{
+            margin-left: 20px;
+            font-size:18px;
+            font-family:"宋体";
+            color:#666;
+            text-decoration:underline;}
+        .copyright{
+            text-align:center;}
+        p,p>a{
+
+            font-size:13px;
+            font-family:"宋体";
+            color:#666;}
+    </style>
+</head>
+<body>
+<div class="top">
+    <div class="title">
+         <span>
+             <a class="bold" href="#">新闻</a>&nbsp;
+             <a class="bold" href="#">hao123</a>&nbsp;
+             <a class="bold" href="#">地图</a>&nbsp;
+             <a class="bold" href="#">视频</a>&nbsp;
+             <a class="bold" href="#">贴吧</a>&nbsp;
+             <a class="bold" href="#">图片</a>&nbsp;
+             <a class="bold" href="#">网盘</a>&nbsp;
+			 <a class="bold" href="#">更多</a>&nbsp;
+	     </span>
+    </div>
+</div>
+<div class="top1">
+    <div class="title1">
+	<span>
+		<a class="bold1" href="#" >设置</a>&nbsp;
+        <!-- <a class="bold1" href="#">登录</a>&nbsp; -->
+		<input class="list" type="submit" value="登录" name="submit" />&nbsp;
+	</span>
+    </div>
+
+
+    <div class="body">
+        <div class="pic">
+            <img class="logo" src="2.png" />
+        </div>
+        <div class="search">
+            <form>
+                <label for="search"></label>
+                <input class="input" type="text" name="search" id="search" value="" /><input class="btn" type="submit" value="百度一下" name="submit" />
+            </form>
+        </div>
+    </div>
+
+
+    <div class="foot">
+        <div class="link">
+            <a href="#">把百度设为主页</a>
+            <a href="#">关于百度</a>
+            <a href="#">About Baidu</a>
+            <a href="#">百度推广</a>
+        </div>
+        <div class="copyright">
+            <p>
+                ©2022 Baidu  <a href="#">使用百度前必读</a>  <a href="#">意见反馈</a>  京ICP证030173号  <a href="#">京公网安备11000002000001号</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
